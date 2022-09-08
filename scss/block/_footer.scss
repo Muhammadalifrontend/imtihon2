@@ -1,0 +1,204 @@
+.footer{
+    background-image: url(../../image/footer-bgr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+    &__title{
+        // padding-left: 165px;
+        padding-top: 102px;
+        padding-bottom: 102px;
+        height: 96px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+       
+
+
+    }
+    &__top-list{
+        display: flex;
+        height: 56px;
+        width: 359px;
+        padding-top: 122px;
+        padding-bottom: 122px;
+        justify-content: space-between;
+       
+    }
+    &__top-item{
+        height: 56px;
+        width: 159px;
+    }
+    &__nav{
+        display: flex;
+        padding-top: 35px;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 23px;
+    }
+    &__box{
+        display: flex;
+        width: 417px;
+        height: 29px;
+        justify-content: space-between;
+    }
+    // &__logo{
+        
+        
+    // }
+    &__bottom{
+        background: #333A44;
+        max-width: 100%;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        width: 225px;
+    }
+   &__link{
+       font-style: normal;
+       font-weight: 700;
+       font-size: 15px;
+       line-height: 25px;
+       color: #939CAA;
+       font-family: 'Space Mono';
+   }
+   &__icon-list{
+    display: flex;
+    width: 120px;
+height: 24px;
+justify-content: space-between;
+   }
+//    &__iconka:hover{
+//     background: #E5ECF4;
+//    width: 100%;
+//    height: 100%;
+//    color:#333A44;
+
+//    }
+   &__ikkon:hover{
+    background-color: #E5ECF4;
+    
+  
+   }
+   &__facebook{
+    color: #333A44;
+    background-color: #FCB72B;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+
+   }
+   &__link:hover{
+    border-bottom: 1px solid #000;
+}
+  
+}
+@media screen and (max-width:768px){
+    .footer{
+        &__top{
+            display: block;
+            align-items: center;
+            justify-content: center;
+        }
+        &__title{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        &__top-list{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        &__top-item{
+            align-items: center;
+            justify-content: center; 
+        }
+        &__right{
+            align-items: center;
+            justify-content: center;
+        }
+        &__bottom{
+            display: contents;
+            background: #333A44;
+
+        }
+        &__icon-list{
+            padding-right: 200px;
+        }
+        
+    }
+   
+}
+@media screen and (max-width:375px){
+    .footer{
+       
+    
+    &__top{
+        display: block;
+        
+        text-align: center;
+    }
+    &__icon-item{
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    &__list{
+        display: block;
+        text-align: center;
+    }
+    &__about{
+        height: 100px;
+        width: 311px;
+    }
+    &__top-item{
+        height: 40px;
+        width: 130px;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+    &__title{
+        width: 311px;
+height: 64px;
+font-size: 32px;
+justify-content: center;
+    }
+    &__nav{
+        display: block;
+        justify-content: center;
+        text-align: center;
+       
+        
+    }
+   
+    &__icon{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    &__box{
+        display: block;
+        justify-content: center;
+    }
+    &__ikkon{
+        justify-content: center;
+        text-align: center;
+        
+    }
+    &__iconka{
+        justify-content: center;
+    }
+   
+}
+}

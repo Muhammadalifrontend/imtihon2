@@ -1,0 +1,77 @@
+.hero{
+    background-image: url(../../image/scooter__bgr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    // width: 1440px;
+    margin: 0 auto;
+
+    
+   
+    &__title{
+        font-style: normal;
+        padding-top: 153px;
+        
+        
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+        font-family: 'Space Mono';
+    }
+   
+    &__about{
+        padding-left: 93px;
+        padding-top: 40px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        
+        font-family: 'Lexend Deca';
+    }
+    &__button{
+        padding-top: 40px;
+        padding-bottom: 152px;
+        padding-left: 93px;
+    }
+    &__btn:hover{
+        background-color: #fff;
+        color: #FCB72B;
+        width: 180px;
+        height: 53px;
+        text-align: center;
+    }
+    &__btn:active{
+        background-color: red;
+        color: #FCB72B;
+        width: 180px;
+        height: 53px;
+        text-align: center;
+    }
+    &__btn{
+        background:#FCB72B;
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        
+        text-align: center;
+}
+}
+@media screen and (max-width:768px){
+    .hero{
+        text-align: center;
+    }
+   
+}
+@media screen and (max-width:375px){
+    .hero{
+        text-align: center;
+    }
+   
+}

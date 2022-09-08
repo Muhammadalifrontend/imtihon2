@@ -1,0 +1,126 @@
+.header{
+        background-color: #fff;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+        z-index: 2;
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;      
+        width: 100%;  
+
+
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+         color: #939CAA;
+        font-family: 'Space Mono';
+    }
+    &__link:hover{
+        border-bottom: 1px solid #000;
+    }
+    &__boxx{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        padding-left: 58px;
+    }
+    &__bar{
+        color: black;
+        display: none;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        font-family: 'Space Mono';
+        
+    }
+    &__button{
+        padding-left: 20px;
+    }
+    &__btn{
+        background: #FCB72B;
+        width: 180px;
+        height: 53px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    &__btn:active{
+            background-color: red;
+            color: #FCB72B;
+            width: 180px;
+            height: 53px;
+            text-align: center;
+    }
+    &__btn:hover{
+            background-color: white;
+            color: #FCB72B;
+            border: 1px solid;
+            width: 180px;
+            height: 53px;
+            text-align: center;
+    }
+
+
+color: #FFFFFF;
+
+
+    }
+
+@media screen and (max-width: 768px){
+       
+       
+       
+}
+@media screen and (max-width: 375px){
+    .header{
+        
+        &__bar{
+            display: inline-block;
+            height: 3.69px;
+            left: 32px;
+            top: 36.31px;
+            color: #FCB72B;
+            width: 19.69px;
+        }
+        &__list{
+            display: none;
+        }
+        &__nav{
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+        }
+        &__button{
+            display: none;
+            
+        }
+        &__title{
+            text-align: center;
+        }
+
+       
+       
+       
+    }
+}
+    
